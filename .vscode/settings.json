@@ -1,0 +1,11 @@
+{
+  "idf.adapterTargetName": "esp32c6",
+  "idf.openOcdConfigs": ["board/esp32c6-bridge.cfg"],
+  "idf.flashType": "UART",
+  "idf.port": "/dev/cu.usbserial-510",
+  "files.associations": {
+    "CODEOWNERS": "plaintext",
+    "esp_zb_main.h": "c",
+    "gpio.h": "c"
+  }
+}
